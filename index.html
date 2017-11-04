@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
-	<title>Calvin Mendoza Portfolio</title>
-	<link rel="normalize" href="..\myPortfolio\css\normalize.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+	<title>Calvin Mendoza</title>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- css / img reference -->
+
+	<link rel="normalize" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="icon" href="http://www.favicon.cc/logo3d/427976.png" type="image/gif" sizes="16x16">
 	<!-- need to fix this! currently pointing to local content -->
-	<link rel="Image" href="calvin.jpg" type="image/gif">
+	<link rel="Image" type="image/gif" href="img/calvin.jpg" >
 
 
 </head>
@@ -16,29 +23,76 @@
 <body>
 
 	<!-- Navigation Bar -->
-	<nav class="navbar navbar-inverse" 
-		<div class="container-fluid">
-			<div class="nav navbar-nav">
-				<ul class="nav navbar-nav">
-					<li class="active">
-						<li><a href="#">Home</a></li>
-						<li><a href "#">Bio</a></li>
-						<li><a href "#">Experience</a></li>
-						<li><a href "#">Contact</a></li>
-				</ul>
+	<header id=navBar>
+		<nav class="navbar navbar-inverse"> 
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">Calvin Mendoza</a>
+				</div>
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<li>
+						<a href="index.html">About Me</a>
+					</li>
+					<li>
+						<a href "portfolio.html">Portfolio</a>
+					</li>
+					<li>
+						<a href "contact.html">Contact</a>
+					</li>
+			</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Main content / About me -->
+
+	<div id="mainContainer" class="container">
+			<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6">
+								
+							<h2>About Me</h2>
+
+								<img src="img/calvin.jpg" class="img" alt="Calvin Mendoza">
+			
+									<p>In QA, I believe there is no such thing as a trickiest bug; there is only tricky methodology that will discover issues
+									within a project. QA will always test against design of products/projects that is agreed upon by all stakeholders. The
+									environment at your company seems both refreshing and inviting. Understanding and delivering quality products appears
+									to be your top priority, which aligns perfectly with my professional standards and experience. Your tight-knit organization
+									leads me to believe that you are willing to provide a great user experience; this makes all the difference, as I personally
+									disengage from broken products. </p>
+		
+						</div>		
+					
+	
+
+	<!-- Sidebar / Connect with me -->
+		
+	<div id="sidebar" class="container" style:"float:right">
+			<div class="col-lg-6">
+		
+		<h3>Connect with Me</h3>
+			
+				<a href="https://github.com/calvinmen1988" target="_blank"><img src="img/github-128.png" class="social" alt="GitHub" /></a>
+				
+				<a href="https://www.linkedin.com/in/calvin-mendoza-2bbb48bb/" target="_blank"><img src="img/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+				
+				<a href="https://stackoverflow.com/users/8738509/calvin-mendoza" target="_blank"><img src="img/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>		
+
 			</div>
 		</div>
-	</nav>
+	</div>
 
-	<!-- Main content -->
+	<!-- Footer -->
+	
+	<footer>
 
-	<div class="jumbotron">
-			<div class="container text-center">
-			  <h1>Bio</h1>      
-			  <p>In QA, I believe there is no such thing as a trickiest bug; there is only tricky methodology that will discover issues within a project. QA will always test against design of products/projects that is agreed upon by all stakeholders. The environment at your company seems both refreshing and inviting. Understanding and delivering quality products appears to be your top priority, which aligns perfectly with my professional standards and experience. Your tight-knit organization leads me to believe that you are willing to provide a great user experience; this makes all the difference, as I personally disengage from broken products. </p>
-			</div>
-		  </div>
-
+		<div class="footer" class="container">
+		  Copyright &copy; 2017 Calvin Mendoza
+		</div>
+	  
+	</footer>
 </body>
 
 </html>
