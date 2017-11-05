@@ -1,25 +1,9 @@
-mainContainer {
+p,h2,h3 {
     font-family: 'Roboto', sans-serif;
+    font-size:18px;
     font-weight: bold;
-    background: #777777;
-    position: fixed;
 }
 
-sidebar {
-    float: right;
-    min-width: 250px;
-    overflow:hidden;
-    max-width: 250px;
-    background:#242323;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    line-height: 34px;
-    color: #777777;
-    background: #ffffff;
-}
 img {
     float: left;
     width: 200px;
@@ -28,12 +12,11 @@ img {
     margin-right: 25px;
 }
 
-social {
-    width: 62px;
-    height: 62px;
-    margin-top: 8px;
-    margin-right: 5px;
-    box-sizing: border-box;
+sidebar {
+    width:200px;
+    height:auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
 footer {
