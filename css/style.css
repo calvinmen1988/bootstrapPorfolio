@@ -1,5 +1,8 @@
-navBar {
-    
+mainContainer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: #777777;
+    position: fixed;
 }
 
 sidebar {
@@ -11,7 +14,7 @@ sidebar {
 }
 
 body {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 34px;
     color: #777777;
@@ -25,7 +28,18 @@ img {
     margin-right: 25px;
 }
 
+social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
 footer {
+    font: Ariel;
+    font-weight: bold;
+    background: #777777;
     position: fixed;
     left: 0;
     bottom: 0;
